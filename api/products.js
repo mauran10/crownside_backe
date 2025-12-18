@@ -1,5 +1,5 @@
-import { connectDB } from "../lib/mongo";
-import Product from "../src/models/Product";
+import { connectDB } from "../lib/mongo.js";
+import Product from "../src/models/Product.js";
 
 export default async function handler(req, res) {
   await connectDB();
